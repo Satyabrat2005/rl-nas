@@ -133,6 +133,6 @@ If you use this code in your research, please cite this repository:
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/yourusername/rl-nas}}
+  howpublished = {\url{https://github.com/Satyabrat2005/rl-nas}}
 }
 ```
