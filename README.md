@@ -123,3 +123,16 @@ Below are the logged results from Weights & Biases (W&B) – these confirm the p
 
 ### Figure 2: Fixed Supernet (93.99%)
 ![Checkpoints](search_space.png)
+
+## Citation 
+If you use this code in your research, please cite this repository:
+```
+@misc{rlnas2026,
+  author = {Satyabrat Sahu},
+  title = {RL-NAS: Single-GPU Neural Architecture Search with REINFORCE},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/yourusername/rl-nas}}
+}
+```
