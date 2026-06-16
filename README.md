@@ -96,10 +96,10 @@ python -c "import torch; print('CUDA available:', torch.cuda.is_available())"
 ### Phase 1: Train ResNet‑20 baseline
 python src/baseline.py
 
-# Phase 2 & 3: Train the weight‑shared supernet
+### Phase 2 & 3: Train the weight‑shared supernet
 python src/supernet.py
 
-# Phase 4: Run REINFORCE controller search
+### Phase 4: Run REINFORCE controller search
 python src/controller.py
 
 ## About the (.pth) Checkpoint Files
