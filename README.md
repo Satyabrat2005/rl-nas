@@ -93,7 +93,7 @@ python -c "import torch; print('CUDA available:', torch.cuda.is_available())"
 ```
 
 ## Run the Full Pipeline 
-# Phase 1: Train ResNet‑20 baseline
+### Phase 1: Train ResNet‑20 baseline
 python src/baseline.py
 
 # Phase 2 & 3: Train the weight‑shared supernet
