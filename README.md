@@ -118,3 +118,8 @@ All `*.pth` files are **PyTorch state dictionaries** (model weights) saved autom
 ## Results and Validation
 Below are the logged results from Weights & Biases (W&B) – these confirm the performance reported above.
 
+### Figure 1: ResNet‑20 Baseline (92.42%)
+![Checkpoints](Resnet_20.png)
+
+### Figure 2: Fixed Supernet (93.99%)
+![Checkpoints](search_space.png)
