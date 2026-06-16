@@ -51,17 +51,19 @@ To make search feasible on a single GPU, we train a **supernet** where all archi
 ---
 
 ## Repository Structure
+```text
 rl-nas/
 ├── src/
-│ ├── baseline.py # ResNet‑20 training (Phase 1)
-│ ├── search_space.py # Cell, MixedOp, OPS (Phase 2)
-│ ├── supernet.py # Weight‑shared supernet training (Phase 3)
-│ ├── controller.py # REINFORCE controller (Phase 4)
-├── checkpoints/ # Saved models (.pth files – see below)
-├── data/ # CIFAR‑10 dataset (auto‑downloaded)
-├── logs/ # Training logs
-├── requirements.txt # Python dependencies
-└── README.md 
+│   ├── baseline.py       # ResNet-20 training (Phase 1)
+│   ├── search_space.py   # Cell, MixedOp, OPS (Phase 2)
+│   ├── supernet.py       # Weight-shared supernet training (Phase 3)
+│   └── controller.py     # REINFORCE controller (Phase 4)
+├── checkpoints/          # Saved models (.pth files – see below)
+├── data/                 # CIFAR-10 dataset (auto-downloaded)
+├── logs/                 # Training logs
+├── requirements.txt      # Python dependencies
+└── README.md
+```
 
 ## Getting Started
 **Prerequisites:**
